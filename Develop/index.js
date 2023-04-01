@@ -40,6 +40,16 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'Please provide test instructions for your project.',
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Please provide your GitHub username.',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please provide your email address.',
     }
 ].then(answers => {
     console.log(answers);
@@ -54,22 +64,7 @@ const questions = [
 
     });
 });
-
-
-// TODO: Create a function to write README file
-const  writeToFile = (fileName, data) => {
-        return `
-        Your ${title}!
-        Your description is ${description}
-        Your installation is ${installation}
-        The how to use ${usage}
-        this is your credits ${credits}
-        this is your license ${license}
-        this is your tests ${tests}
-        `;
-    };
     
-
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions);

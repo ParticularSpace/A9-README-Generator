@@ -13,12 +13,12 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== "None") {
     return (
-      "![GitHub License](https://img.shields.io/badge/license-${license}-blue.svg)"
+      `https://choosealicense.com/licenses/${license.toLowerCase()}/`
     );
   }
   return "";
-
 }
+
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -60,8 +60,6 @@ function generateMarkdown(data) {
   ## Usage
 
   ${data.usage}
-
-  ## License
 
   ${renderLicenseSection(data.license)}
 

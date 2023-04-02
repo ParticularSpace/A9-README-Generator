@@ -1,10 +1,10 @@
-# Password Generator
+# sam is great
 
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
 
-  Using node.js to create a console command line application to create quality READMES
+  yo yo yo yo
 
   ## Table of Contents
 
@@ -17,13 +17,11 @@
 
   ## Installation
 
-  Run node in terminal
+  do it
 
   ## Usage
 
-  Run node for this file
-
-  ## License
+  it does
 
   ## License
 
@@ -32,15 +30,15 @@
 
   ## Contributing
 
-  Sam Jones
+  yes
 
   ## Tests
 
-  ParticularSpace
+  do it and wokr
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at samejones2018@gmail.com. You can find more of my work at [ParticularSpace]
+  If you have any questions about the repo, open an issue or contact me directly at me@gmail.com. You can find more of my work at [samsamsam]
 
 
 

@@ -22,6 +22,10 @@
   ## Usage
 
   To create a quality README
+  
+  ## Functionality Video
+  
+  ![Functionality Video](yes yes yes it will be here soon)
 
   ## License
 
@@ -29,7 +33,7 @@
 
   ## Contributing
 
-  Sam Jones, UC Berkeley Coding Boot camp
+  Sam Jones, UC Berkeley Coding Boot camp, Manny (Professor) Learning node day 2 notes
 
   ## Tests
 

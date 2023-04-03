@@ -12,7 +12,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license !== "None") {
     return (
-      `https://choosealicense.com/licenses/${license.toLowerCase()}/`
+      `https://choosealicense.com/licenses/${license.toLowerCase()}`
 
     );
   }
@@ -25,7 +25,7 @@ function renderLicenseSection(license) {
   if (license !== "None") {
     return `## License
 
- This project is licensed under the ${license} license. To learn more please visit ${renderLicenseLink(license)}`;
+ This project is licensed under the ${license} license. To learn more please visit ${renderLicenseLink(license)}.`;
   }
   return "";
   }
@@ -70,7 +70,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}]`;
+  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at ${data.github}`;
 }
 
 module.exports = generateMarkdown;

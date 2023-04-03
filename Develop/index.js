@@ -56,7 +56,7 @@ const questions = [
 ];
     
 // function to write README file
-function init() {
+function createREADME() {
     inquirer.prompt(questions).then((answers) => {
         const readme = generateMarkdown(answers);
         fs.writeFile('README.md', readme, (err) =>
@@ -66,5 +66,5 @@ function init() {
 
 }
 
-// Function call to initialize app
-init();
+// Function call to createREADME 
+createREADME();

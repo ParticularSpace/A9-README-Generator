@@ -35,7 +35,7 @@ function renderLicenseSection(license) {
   }
 
   function renderGitHubLink(github) {
-    return `[${github}](github.com)`;
+    return `[${github}](github.com/${github})`;
   }
 
 

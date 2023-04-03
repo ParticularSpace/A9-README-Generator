@@ -1,40 +1,37 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+//Function to render license badge based on which license is passed in
 function renderLicenseBadge(license) {
   if (license !== "None") {
-    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+    return `![License](https://img.shields.io/badge/license-${license}-blue.svg)`;
+
   }
   return "";
 
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Function to render license link
 function renderLicenseLink(license) {
   if (license !== "None") {
     return (
       `https://choosealicense.com/licenses/${license.toLowerCase()}/`
+
     );
   }
   return "";
 }
 
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Function to generate markdown for README
 function renderLicenseSection(license) {
   if (license !== "None") {
     return `## License
 
-
- This project is licensed under the ${license} license.`;
+ This project is licensed under the ${license} license. To learn more please visit ${renderLicenseLink(license)}`;
   }
   return "";
- 
   }
 
 
-// TODO: Create a function to generate markdown for README
+// Function to generate the README file contents
 function generateMarkdown(data) {
   return `# ${data.title}
 

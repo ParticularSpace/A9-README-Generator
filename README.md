@@ -1,10 +1,10 @@
 # README Generator
 
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+  ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
 
-  A command line application that produces a quality README.
+  A command line program that creates a quality README.
 
   ## Table of Contents
 
@@ -17,24 +17,23 @@
 
   ## Installation
 
-  Have node.js installed and  clone the repo from github. 
+  Have node.js installed and clone the Github repo.
 
   ## Usage
 
-  Create a Quality README
+  To create a quality README
 
   ## License
 
-
- This project is licensed under the MIT license.
+ This project is licensed under the MIT license. To learn more please visit https://choosealicense.com/licenses/mit/
 
   ## Contributing
 
-  Sam Jones, UC Berkeley Coding Extension
+  Sam Jones, UC Berkeley Coding Boot camp
 
   ## Tests
 
-  Open terminal and run node index.js to see if the command lines function. 
+  Open terminal and run node for index.js
 
   ## Questions
 

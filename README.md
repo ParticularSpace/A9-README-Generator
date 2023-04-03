@@ -25,7 +25,7 @@
   
   ## Functionality Video
   
-  ![Functionality Video](yes yes yes it will be here soon)
+  ![Functionality Video](https://drive.google.com/file/d/1c7H8WO5ZKmBEWR1gg92G0iGJ7pkIuKwB/view)
 
   ## License
 

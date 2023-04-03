@@ -45,7 +45,7 @@ function generateMarkdown(data) {
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
+  - [Contributing](#credits)
   - [License](#license)
   - [Tests](#tests)
   - [Questions](#questions)
@@ -70,12 +70,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}]
-
-
-
-
-`;
+  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}]`;
 }
 
 module.exports = generateMarkdown;

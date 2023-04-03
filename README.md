@@ -25,7 +25,7 @@
   
   ## Functionality Video
   
-  ![Functionality Video](https://drive.google.com/file/d/1c7H8WO5ZKmBEWR1gg92G0iGJ7pkIuKwB/view)
+  [Functionality Video](https://drive.google.com/file/d/1c7H8WO5ZKmBEWR1gg92G0iGJ7pkIuKwB/view)
 
   ## License
 
@@ -41,7 +41,7 @@
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at samejones2018@gmail.com. You can find more of my work at [ParticularSpace]
+  If you have any questions about the repo, open an issue or contact me directly at [samejones2018@gmail.com](https://mail.google.com/mail/u/0/#inbox). You can find more of my work at [ParticularSpace](https://github.com/ParticularSpace).
 
 
 

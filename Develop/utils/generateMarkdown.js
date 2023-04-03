@@ -30,6 +30,14 @@ function renderLicenseSection(license) {
   return "";
   }
 
+  function renderMailTo(email) {
+    return `[${email}](mailto:${email})`;
+  }
+
+  function renderGitHubLink(github) {
+    return `[${github}](github.com)`;
+  }
+
 
 // Function to generate the README file contents
 function generateMarkdown(data) {
@@ -70,7 +78,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at ${data.github}`;
+  If you have any questions about the repo, open an issue or contact me directly at ${renderMailTo(data.email)}. You can find more of my work at ${renderGitHubLink(data.github)}.`;
 }
 
 module.exports = generateMarkdown;

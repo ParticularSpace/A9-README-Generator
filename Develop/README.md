@@ -1,10 +1,10 @@
-# README
+# README Generator
 
   ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
 
-  it will work this time
+  A command line application to produce a quality README.
 
   ## Table of Contents
 
@@ -17,11 +17,11 @@
 
   ## Installation
 
-  just do it
+  Have node and clone repo
 
   ## Usage
 
-  you got this dont fail sam
+  Creates quality readmes
 
   ## License
 
@@ -29,12 +29,12 @@
 
   ## Contributing
 
-  me myself and manny
+  Sam, Manny (instructor), UC Berkeley coding bootcamp
 
   ## Tests
 
-  lmao you should kknow
+  run node on index.js
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at [samejones2018@gmail.com](mailto:samejones2018@gmail.com). You can find more of my work at [ParticularSpace](github.com).
+  If you have any questions about the repo, open an issue or contact me directly at [samejones2018@gmail.com](mailto:samejones2018@gmail.com). You can find more of my work at [ParticularSpace](github.com/ParticularSpace).
